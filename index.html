@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sunil Kumar">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sunil-Lore/getcss@v0.1.0-alpha-07/dist/css/getcss.min.css">
+    <link rel="canonical" href="#">
+    <title>getcss block example 14</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Custom example style start -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Noto+Sans+Arabic:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+        body {
+            background-color: #fffaf0;
+            font-family: "Noto Sans Arabic", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 30px;
+            box-shadow: 2px 2px 2px 2px #00000071;
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+        }
+
+        h4,
+        h6 {
+            font-family: "Noto Sans Arabic", sans-serif;
+        }
+
+        p {
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        img {
+            border-radius: 5%;
+            border: 3px solid silver;
+            margin: 10%;
+        }
+
+        nav img {
+            width: 50px;
+            border-radius: 50%;
+            margin: 0;
+        }
+
+        .travel-block {
+            padding: 15px;
+            margin: 10px;
+            border: 1px solid darkgrey;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h2,
+        h4 {
+            font-family: "Noto Sans Arabic", sans-serif;
+        }
+
+        p,
+        h6,
+        a {
+            font-family: "Noto Sans Arabic", sans-serif;
+        }
+
+        .btn {
+            border: 2px solid black;
+            padding: 10px 20px;
+            background-color: black;
+            color: silver;
+            margin: 10px;
+        }
+
+        #js a:hover {
+            background-color: silver;
+            color: black;
+        }
+
+        img {
+            margin: auto;
+            border-radius: 5%;
+            border: 3px solid silver;
+        }
+
+        #js {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 30px;
+        }
+
+        #js p {
+            text-align: center;
+        }
+
+        #image-txt {
+            font-size: large;
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        #txt-position {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        footer h4 {
+            font-family: 'Pacifico', cursive;
+        }
+
+        footer p {
+            font-family: 'Rubik', sans-serif;
+        }
+
+        h1 {
+            font-size: 22px;
+            margin-top: 5px;
+            font-family: "Noto Nastaliq Urdu", serif;
+        }
+
+        footer {
+            border-top: 1px solid;
+        }
+
+        .container-lg {
+            padding-top: 150px;
+        }
+
+        h6 {
+            font-size: 20px;
+        }
+    </style>
+    <!-- Custom example style end -->
+</head>
+
+<body dir="rtl" class="floralwhite">
+    <nav class="white">
+        <img src="download.jpeg">
+        <h1>الباشمبرمج</h1>
+    </nav>
+    <div class="container-lg p-5-pr m-b-30-px p-t-100-px  floralwhite">
+        <div class="row fx-wrap">
+            <div class="col-md-6 p-4-pr txt-center gainsboro">
+                <div id="image-txt">
+                    <img src="download.jpeg" alt="office women" width="180" height="180" />
+                    <div id="txt-position"></div>
+                </div>
+                <br>
+                <div>
+                    <h1>مستر / أحمد مدحت مناع</h1>
+                    <h6 class="fs-16">....</h6>
+                    <p class="fs-14"> </p><br />
+                </div>
+
+            </div>
+            <div class="col-md-6 p-4-pr p-y-5-pr darkgrey">
+                <div>
+                    <h4></h4>
+                    <br />
+
+                </div>
+                <div id="js">
+                    <a href="#" class="btn">Facebook</a><a href="#" class="btn">Youtube</a>
+                    <p class="m-t-50-px ">ومَن تكنِ العلياء هِمَّةَ نفْسِه
+                        فكلُّ الَّذي يلقاهُ فيها محَبَّبُ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container floralwhite m-b-50-px">
+        <div class="row p-2-pr">
+            <h4 class="txt-center">&#128646; ماذا يميزنا ... &#128646;</h4>
+        </div>
+        <div class="row p-x-5-pr fx-wrap">
+            <div class="col-md-3 travel-block">
+                <p class="fs-50">&#128676;</p>
+                <h6>تطوير مستمر لطرق التعلم</h6>
+                <br />
+
+            </div>
+            <div class="col-md-3 travel-block">
+                <p class="fs-50">&#127873;</p>
+                <h6>شهادة معتمدة من كبار الشركات العالمية</h6>
+                <br />
+            </div>
+            <div class="col-md-3 travel-block">
+                <p class="fs-50">&#128201;</p>
+                <h6>مشاريع تطبيقية تؤهل الطالب لسوق العمل</h6>
+                <br />
+            </div>
+            <div class="col-md-3 travel-block">
+                <p class="fs-50">&#128130;</p>
+                <h6>نسبة توظيف للخريجين تصل ل 86%</h6>
+                <br />
+            </div>
+        </div>
+    </div>
+    <div #="courses">
+        <br>
+        <h1 class="txt-center m-b-50-px">ماذا نقدم .. ؟</h1>
+        <div class="parent">
+
+            <div class="box">
+                <img src="74897.png">
+                <a href="one piece/index.html">
+                    <p>أساسيات البرمجة بلغة ++C</p>
+                </a>
+            </div>
+
+
+            <div class="box">
+                <img src="1200px-.NET_Logo.svg.png">
+                <a href="net/index.html">
+                    <p>full stack .NET</p>
+                </a>
+            </div>
+
+
+            <div class="box">
+                <img src="java-black-2560x2560-16069.png">
+                <a href="cofee/index.html">
+                    <p>لغة Java من الصفر للأحتراف</p>
+                </a>
+            </div>
+
+
+            <div class="box">
+                <img src="JavaScript-logo.png">
+                <a href="java/index.html">
+                    <p>Javascript لكل المستويات</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="floralwhite m-t-50-px">
+        <div class="row fx-wrap p-3-pr">
+            <div class="col-md-4">
+                <div class="txt-center">
+                    <p>Copyright &copy; 2024 ( 2m3.com )</p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="txt-center">
+                    <h4>
+                        Ahmed Medhat
+                    </h4>
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="txt-center">
+                    <p>Our Services | Privacy Policy | Contact Us</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
